@@ -71,3 +71,14 @@
   .photo-for-gallery:hover {
     transform: scale(1.15);
   }
+
+  .flex-quote{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3.5rem 0;
+    color: #993b7a;
+    text-shadow: 5px 5px #c883b1;
+  }
