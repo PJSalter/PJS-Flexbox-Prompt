@@ -72,6 +72,7 @@
     transform: scale(1.15);
   }
 
+  /* styling to description below the page */
   .flex-quote{
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 4rem;
