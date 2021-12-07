@@ -1,6 +1,6 @@
 # PJS-Flexbox-Prompt
 
-## [:full_moon_with_face: :star2: :satellite: :milky_way: :new_moon_with_face: :alien: A project that shows my understanding on using Flexbox Layout, click on the link to see my finished prompt project :alien: :new_moon_with_face: :milky_way: :satellite: :star2: :full_moon_with_face:](pjsalter.github.io/pjs-flexbox-prompt/)
+## [:full_moon_with_face: :star2: :satellite: :milky_way: :new_moon_with_face: :alien: A project that shows my understanding on using Flexbox Layout, click this description link here to see my finished prompt project :alien: :new_moon_with_face: :milky_way: :satellite: :star2: :full_moon_with_face:](pjsalter.github.io/pjs-flexbox-prompt/)
 
 ### I was asked to create a project which uses my skill in flexbox layout, I've built a container that stored each element and I've used properties like justify-content, align-items and flex-wrap with a felx-direction to show all the fun elements within the styled page.
 
