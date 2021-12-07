@@ -1,0 +1,73 @@
+/* This represents a root element of a tree which constitutes for the html tag, my root element will contain the pages background color. */
+:root {
+    background-color: #f6f498;
+  }
+  
+  /* When I will use the asterix "*" only While selecting elements from the html page, these elements will get selected irrespectivly from a parent-child relationship. */
+  *,
+  /* generating styling content that will arrive before the element, the after will position on top of the before position */
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* diameters for the whole size for the page */
+  body {
+    min-height: 100vh;
+  }
+  
+  /* the containers diameters for the space where it appears on the page */
+  .flexbox-container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+  }
+  
+  /* page title styling */
+  .title-of-flex {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3.5rem 0;
+    color: #993b7a;
+    text-shadow: 5px 5px #c883b1;
+  }
+  /* page title in one block to keep it in one place for all different sized screens */
+  .title-of-flex span {
+    display: block;
+  }
+  
+  /* flex layout for the whole gallery on how it appears on page */
+  .photo-gallery {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -1rem -1rem;
+  }
+  
+  .image-component {
+    /* this will enlarge to fill space when available and the Minimum width is 24rem */
+    flex: 1 0 24rem;
+    /* Margin value should be half of of the gap for layout compnents and its value so that the margins on flex items will not break down */
+    margin: 1rem;
+    box-shadow: 0.4rem 0.5rem 0.5rem rgb(41, 114, 86);
+    overflow: hidden;
+  }
+  
+  /* the image styling for the photo gallery which will fill each corner of the block, also contains the speed of how fast the photo will zoom in once mouse hovers over */
+  .photo-for-gallery {
+    display: block;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    object-fit: cover;
+    transition: transform 600ms ease-out;
+  }
+  
+  /* the hover which indicates the amount of space is taken up for the image to grow */
+  .photo-for-gallery:hover {
+    transform: scale(1.15);
+  }
